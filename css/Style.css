@@ -1,0 +1,170 @@
+
+body{
+    background-color: #FFFBEA;
+}
+:root{
+    --main-color: #FD4029
+}
+
+.main-color{
+    color: var(--main-color);
+}
+
+.main-color-bg{
+    background-color: var(--main-color);
+}
+
+.icon-nav{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.img-nav{
+    height: 2.75rem;
+    width: 2.75rem;
+    border: solid 2px #FD4029;
+}
+
+.icon-nav-right{
+    color: #4A5565;
+}
+
+.icon-nav-right:hover{
+    color: var(--main-color);
+}
+
+.rounded-row{
+    border-radius: 30px;
+        overflow-y: auto;
+
+}
+.content-row{
+    height: 750px;
+
+    scrollbar-width: thin;
+
+    background-color: white;
+    overflow-y: auto;
+    /* border-radius: 30px; */
+}
+
+.yellow-color{
+    color: #FDC700  ;
+}
+
+.span-1{
+    background-color: #DBFCE7;
+    color: #008236;
+    font-size: 0.85rem;
+}
+.span-2{
+    background-color: #DBEAFE;
+    color: #1459EB;
+    font-size: 0.85rem;
+}
+
+.icon-span{
+    background-color: #FFF4E6;
+    color: #e8571a;
+    padding: 1rem 1.25rem ;
+}
+
+.icon-span:hover{
+    background-color: #FFEDD4;
+    color: #F54A00;
+}
+
+
+
+
+.text-p{
+    color: #9F0712;
+}
+
+.warring-massege{
+    border-left :solid 4px #FB2C36 ;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: var(--main-color);
+    background-color: white;
+    border-bottom: var(--main-color) 3px solid ;
+}
+
+.nav-pills .nav-link{
+    border-radius:0 ;
+}
+
+.nav-link{
+    color: #6A7282;
+}
+
+.nav-link:hover{
+    color: #364153;
+}
+
+
+
+
+
+
+.Ingredients{
+    height: 350px;
+    scrollbar-width: thin;
+    overflow-y: auto;
+    scrollbar-color: #FEF2F2;
+    background-color: #FFF8EC;
+}
+
+
+
+.number-list{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.number-list-2{
+    width: 3.75rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.bg-light-black{
+    background-color: #F9FAFB;
+}
+
+.h-350px{
+    height: 350px;
+    scrollbar-width: thin;
+        scrollbar-color: #FEF2F2;
+
+}
+
+.check-icon{
+    background-color: #E17100;
+    color: #FFFBEB;
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}
+
+.last-tab{
+    border-left: solid 3px #FFB900;
+
+}
+
+.btn-color-bg{
+    background:linear-gradient(to right,#FF6400,#FB3135) ;
+    transition: all 0.45s ease-in-out;
+}
+
+.btn-color-bg:hover{
+    background:linear-gradient(to right,#F54700,#E80007) ;
+    transform: scale(1.03);
+}
